@@ -12,6 +12,6 @@ Then go to your favorite project and you can execute
 
 # Example
 
-[![Screenshot](https://github.com/voghDev/git-pushdemont/blob/master/screenshot.gif)]
+![Screenshot](https://github.com/voghDev/git-pushdemont/blob/master/screenshot.gif)
 
 Enjoy it!
