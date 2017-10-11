@@ -1,5 +1,5 @@
 # git-pushdemont
-Custom Git command that marks the commit as pushed, then reverts the process after 8 seconds
+Custom Git command that marks your commits as pushed, then reverts the process after 8 seconds
 
 # Installing
 
