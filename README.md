@@ -9,5 +9,9 @@ Custom Git command that marks the commit as pushed, then reverts the process aft
 Then go to your favorite project and you can execute
 
     git pushdemont
-    
+
+# Example
+
+[![Screenshot](https://github.com/voghDev/git-pushdemont/blob/master/screenshot.gif)]
+
 Enjoy it!
