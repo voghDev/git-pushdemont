@@ -3,7 +3,7 @@ Custom Git command that marks your commits as pushed, then reverts the process a
 
 # Installing
 
-    sudo cp git-pushdemont /bin
+    cp git-pushdemont /bin
     chmod a+x git-pushdemont
     
 Then go to your favorite project and you can execute
