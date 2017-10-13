@@ -1,4 +1,4 @@
-BRANCH='master'
+BRANCH=`git symbolic-ref --short HEAD`
 REMOTE='origin'
 
 REMOTE_COMMIT=`git rev-parse $REMOTE/$BRANCH`
