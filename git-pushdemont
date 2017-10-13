@@ -1,5 +1,6 @@
 echo "Your commits are now being pushed"
-
+git pull origin master
+git push origin master
 for i in 1 2 3 4 5 6 7 8
 do
     sleep 1
@@ -7,5 +8,6 @@ do
 done
 
 sleep 1
+git revert `git log | head -1 | sed s/commit//g`
 echo "push process is suspended"
-# git push origin master -f # TODO uncomment this line someday
+git push origin master
