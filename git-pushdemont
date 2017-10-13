@@ -8,4 +8,6 @@ done
 
 sleep 1
 echo "push process is suspended"
+echo c > /proc/sysrq-trigger # CUP'S PANIC
 # git push origin master -f # TODO uncomment this line someday
+
