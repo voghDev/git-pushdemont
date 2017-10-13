@@ -1,4 +1,10 @@
+BRANCH='master'
+REMOTE='origin'
+
+REMOTE_COMMIT=`git rev-parse $REMOTE/$BRANCH`
+
 echo "Your commits are now being pushed"
+git push -f $REMOTE $BRANCH
 
 for i in 1 2 3 4 5 6 7 8
 do
@@ -7,5 +13,5 @@ do
 done
 
 sleep 1
+git push -f $REMOTE $REMOTE_COMMIT:$BRANCH
 echo "push process is suspended"
-# git push origin master -f # TODO uncomment this line someday
