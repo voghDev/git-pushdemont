@@ -1,6 +1,7 @@
 BRANCH=`git symbolic-ref --short HEAD`
 REMOTE='origin'
 
+git fetch $REMOTE
 REMOTE_COMMIT=`git rev-parse $REMOTE/$BRANCH`
 
 echo "Your commits are now being pushed"
