@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 BRANCH=`git symbolic-ref --short HEAD`
 REMOTE='origin'
 
