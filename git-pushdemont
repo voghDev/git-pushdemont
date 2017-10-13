@@ -8,4 +8,4 @@ done
 
 sleep 1
 echo "push process is suspended"
-# git push origin master # TODO uncomment this line someday
+# git push origin master -f # TODO uncomment this line someday
